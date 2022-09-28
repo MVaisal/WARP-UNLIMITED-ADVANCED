@@ -6,6 +6,8 @@ import string
 import time
 import os
 import sys
+os.system("title WARP UNLIMITED ADVANCED")
+os.system('cls' if os.name == 'nt' else 'clear')
 
 referrer = input("[#] Enter the WARP+ ID:\n")
 def genString(stringLength):
